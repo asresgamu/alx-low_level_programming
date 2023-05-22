@@ -1,6 +1,6 @@
-#include<stdio.h> 
+#include<stdio.h>
 /**
- * main -This programming print with proper grammar, but the outcome is a piece of art,\n
+ * main -This programming print programming with new line\n
  *
  *
  *
