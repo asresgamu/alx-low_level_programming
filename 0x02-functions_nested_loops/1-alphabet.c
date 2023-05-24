@@ -1,12 +1,9 @@
 #include "main.h"
 /*
- * File name: 1-alphabet.c
- *
- * used loop:  for loop
- *
- * Return: Always (0) prints the alphabet in lowercase.
+ * print_alphabet: prints the alphabet in lowercase, which follow newline.
+ * Return: Always (0) (Success)
  */
-void print_alphabet(void) //This print_alphabet not take argument
+void print_alphabet(void)
 
 {
 	char alphabet;
