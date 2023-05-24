@@ -8,11 +8,12 @@
  * using for loop
  */
 void print_alphabet(void)
+	/*There is no argument */
 {
-	char letter;
+	char alphabet;
 
-	for (letter = 'a'; letter <= 'z'; letter++)
-		_putchar(letter);
+	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+		_putchar(alphabet);
 
 	_putchar('\n');
 }
