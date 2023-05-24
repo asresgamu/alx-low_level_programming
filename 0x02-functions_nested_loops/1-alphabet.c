@@ -4,9 +4,9 @@
  *
  * used loop:  for loop
  *
- * Return: Always (0) after  prints the alphabet in lowercase, followed by a new line using for loop
+ * Return: Always (0) prints the alphabet in lowercase.
  */
-void print_alphabet(void)
+void print_alphabet(void) //This print_alphabet not take argument
 
 {
 	char alphabet;
