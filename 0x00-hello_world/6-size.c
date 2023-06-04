@@ -1,19 +1,14 @@
-#include<stdio.h>
+#include <stdio.h>
 /**
- * main -Printing size of data in cprogramming
- *
- * Return o;
+ * main - main block programming
+ * Return: 0 sucusses
  */
-int main(viod)
+int main(void)
 {
-	printf("Size of char:%c byte(s)\n", sizeof(char));
-	printf("Size of int :%d bytes(s) \n", sizeof(int));
-	printf("Size of float:%f byte(s)\n", sizeof(float));
-	printf("Size of double:%lf  byte(s)\n", sizeof(double));
-
-	return ();
-
-
-
+	printf("Size of a char: %i byte(s)\n", sizeof(char));
+	printf("Size of an int: %i byte(s)\n", sizeof(int));
+	printf("Size of a long int: %i byte(s)\n", sizeof(long int));
+	printf("Size of a long long int: %i byte(s)\n", sizeof(long long int));
+	printf("Size of a float: %i byte(s)\n", sizeof(float));
+	return (0);
 }
-
