@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_last_digit - prints the last digit of a number
- * @ab: the int extract the last digit
+ * @ab: the prameter
  * Return: value of the last digit
  */
 int print_last_digit(int ab)
@@ -9,9 +9,9 @@ int print_last_digit(int ab)
 	int a;
 
 	if (ab < 0)
-
 		ab = -ab;
-		a = ab % 10;
+
+	a = ab % 10;
 
 	if (a < 0)
 		a = -a;
@@ -19,5 +19,6 @@ int print_last_digit(int ab)
 	_putchar(a + '0');
 
 	return (a);
+
 }
 
